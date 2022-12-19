@@ -1,0 +1,63 @@
+@use "../../variable";
+.page1{
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.page1{
+    padding: 2% 16% 0% 15%;
+    font-family: variable.$font-family;
+}
+.page1{
+    form{
+        input{
+            width: 96%;
+            height: 2.3rem;
+            border-radius: 7px;
+            border: 1px solid variable.$Light-gray;
+            padding: 0% 1% 0% 2%;
+        }
+    }
+}
+.page1 form input,input::placeholder{
+font-size: 15px;
+font-family: variable.$font-family;
+font-weight: 500;
+color: variable.$Cool-gray;
+}
+.page1{
+    form{
+        label{
+           padding-top: 19px;
+           padding-bottom: 8px;
+           font-size: 14px;
+        }
+    }
+}
+.page1{
+    h1{
+        font-size: 30px;
+        padding-bottom: 7px;
+        margin: 2% 1% 1% 0;
+    }
+}
+.page1{
+    p{
+        font-size: 16px;
+        padding-bottom: 7px;
+        color: variable.$Cool-gray;
+    }
+}
+.page1{
+    button{
+        margin: 18% 0% 0% 0%;
+        float: right;
+        background-color: variable.$Marine-blue;
+        color: variable.$White;
+        height: 7.5%;
+        width: 18%;
+        border: none;
+        border-radius: 8px;
+    }
+}

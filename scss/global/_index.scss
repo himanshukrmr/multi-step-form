@@ -1,0 +1,28 @@
+@use '../variable';
+
+p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: variable.$Magnolia;
+    // margin: 5% 13% 5% 13%;
+}
+section{
+    // justify-content: center;
+    // border: 1px solid red;
+    margin: 4% 15% 2% 15%;
+    display: grid;
+    grid-template-columns: 18vw auto;
+    background: white;
+    padding: 15px 0px;
+    border-radius: 13px;
+}
+.alert{
+    font-family: variable.$font-family;
+    font-weight: 700;
+    color: variable.$Strawberry-red;
+    margin-right: 3%;
+    float: right;
+    display: none;
+}

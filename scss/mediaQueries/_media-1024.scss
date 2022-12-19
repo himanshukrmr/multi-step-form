@@ -1,0 +1,64 @@
+@media only screen and (min-width: 890px) and (max-width: 1024px) {
+    body {
+      section {
+        margin: 9% 13% 2% 13% !important;
+        padding: 0% 0% 0% 2% !important;
+      }
+      .sidebar {
+        height: 68vh !important;
+        width: 33vh;
+        margin-top: 10%;
+        margin-bottom: 10%;
+      }
+      .next-step,
+      .go-back-button {
+        margin: 8% 1% 0% 0% !important;
+        height: 8.5% !important;
+        width: 24% !important;
+      }
+      .sidebar div:nth-child(1) {
+        margin-top: 5% !important;
+      }
+      .sidebar div span:nth-child(1) {
+        margin: 13% 8% 0% 14% !important;
+      }
+      .page1 h1,
+      .page2 h1,
+      .page3 h1,
+      .page4 h1 {
+        margin: 8% 1% 1% 0% !important;
+      }
+      .card a {
+        padding: 3% 5% 3% 4% !important;
+      }
+      .page3 {
+        padding: 2% 12% 0% 14% !important;
+      }
+      #online-service-cost {
+        margin-left: 22% !important;
+      }
+      #larger-storage-cost {
+        margin-left: 30% !important;
+      }
+      #customisable-profile-cost {
+        margin-left: 18% !important;
+      }
+      .add-ons label div p:nth-child(2) {
+        margin-bottom: 6% !important;
+      }
+      .page3 button,
+      .page4 button {
+        margin: 4% 1% 0% 0% !important;
+      }
+    }
+  }
+
+@media only screen and (min-width: 1280px) 
+{
+.section{
+  margin-left: 5% !important;
+}
+.sidebar{
+  height: 72vh !important;
+}
+}

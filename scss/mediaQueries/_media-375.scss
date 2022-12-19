@@ -1,0 +1,152 @@
+@media only screen and (max-width: 376px) {
+  body {
+    margin: 0;
+  }
+  section {
+    display: block !important;
+    margin: 0% 0% 0% 0% !important;
+    padding: 0 !important;
+    background: none !important;
+    border-radius: 0 !important;
+  }
+  .sidebar {
+    display: flex !important;
+    background: url("../../assets/images/bg-sidebar-mobile.svg") !important;
+    width: 100% !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+    height: 30vh !important;
+  }
+  .sidebar div {
+    margin: 9% 4% 0% 0% !important;
+  }
+  .sidebar div:nth-child(1) {
+    margin-left: 22% !important;
+  }
+  .sidebar div span:nth-child(2) {
+    display: none !important;
+  }
+  .sidebar div span:nth-child(1) {
+    margin: 5% 0% 0% 13% !important;
+    width: 33px !important;
+    height: 23px !important;
+    padding-top: 6px !important;
+  }
+  .page1,
+  .page2,
+  .page3,
+  .page4,
+  .thankyou
+  {
+    position: absolute !important;
+    margin-left: 4% !important;
+    width: 70% !important;
+    background-color: white !important;
+    margin-top: -23% !important;
+    border-radius: 10px !important;
+  }
+  .attribution{
+    display: none;
+    margin-top: 65vh !important;
+  }
+  .page1,.page2,.page3,.page4{
+    padding: 8% 16% 0% 6% !important;
+    height: 60vh !important;
+  }
+  .page1 h1,.page2 h1,.page3 h1,.page4 h1 {
+    font-size: 27px !important;
+}
+.page1 p {
+    font-size: 17px !important;
+}
+.page1 form input {
+    width: 18rem !important;
+    height: 2.3rem !important;
+    border-radius: 4px !important;
+}
+.page1 button {
+    margin: 18% -16% 0% 0% !important;
+    height: 11% !important;
+    width: 36% !important;
+    border-radius: 4px !important;
+}
+.card{
+    flex-direction: column !important;
+}
+.card a img {
+   margin-bottom: 0% !important;
+}
+.card a p:nth-child(2) {
+    margin: -16% 0% 0% 21% !important;
+    color: hsl(213deg, 96%, 18%) !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+}
+.card a p:nth-child(3),.card a p:nth-child(4){
+    margin: 0% 0% 0% 21% !important;
+}
+.card a{
+    width: 16.7rem !important;
+}
+.page2{
+    height: 80vh !important;
+}
+.plan-selector {
+    padding: 5% 1% !important;
+    width: 18.2rem !important;
+    border-radius: 9px !important;
+}
+.page2 button {
+    margin: 12% -16% 0% -6% !important;
+    height: 8% !important;
+    width: 36% !important;
+    border-radius: 4px !important;
+}
+.page3{
+    padding: 8% 16% 0% 6% !important;
+}
+.add-ons label {
+    width: 18rem !important;
+}
+.add-ons label div p:nth-child(2){
+    padding-bottom: 6% !important;
+    font-size: 13px !important;
+}
+#online-service-cost{
+    margin-left: 2% !important;
+}
+#larger-storage-cost {
+    margin-left: 14% !important;
+}
+#customisable-profile-cost {
+    margin-left: 0% !important;
+}
+.page3 button, .page4 button {
+    margin: 34% -16% 0% -6% !important;
+    height: 10% !important;
+    width: 36% !important;
+    border-radius: 4px !important;
+}
+.add-ons input{
+    width: 5% !important;
+}
+.summary {
+    width: 17.5rem !important;
+    margin-top: 12% !important;
+    padding: 4% !important;
+}
+.total{
+    margin: 5% -12% 10% 6% !important;
+}
+.thankyou{
+    padding: 25% 10% 24% 12% !important;
+    width: 70% !important;
+}
+.thankyou img {
+    width: 3.4rem !important;
+    
+}
+.thankyou p:nth-child(3){
+    padding: 0;
+}
+}

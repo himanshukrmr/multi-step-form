@@ -1,0 +1,119 @@
+@media only screen and (min-width:648px) and (max-width: 768px) {
+    body {
+      section {
+        margin: 11% 14% 2% 14% !important;
+        padding: 0% 0% 0% 1% !important;
+      }
+      .page1 {
+        padding: 2% 11% 0% 27% !important;
+      }
+      .page2 {
+        padding: 2% 11% 0% 24% !important;
+      }
+      .sidebar {
+        height: 62vh !important;
+        width: 32vh;
+        margin-top: 9%;
+        margin-bottom: 9%;
+      }
+      .page1 form label {
+        font-size: 13px;
+      }
+      .next-step,
+      .go-back-button {
+        margin: 8% 1% 0% 0% !important;
+        height: 8% !important;
+        width: 34% !important;
+        font-size: 13px;
+      }
+      .page1 form label {
+        padding-top: 13px !important;
+      }
+      .page1 form input {
+        height: 2rem !important;
+      }
+      .sidebar div:nth-child(1) {
+        margin-top: 5% !important;
+      }
+      .sidebar div span:nth-child(1) {
+        margin: 13% 8% 0% 14% !important;
+      }
+      .page1 h1,
+      .page2 h1,
+      .page3 h1,
+      .page4 h1 {
+        margin: 8% 1% 1% 0% !important;
+        font-size: 28px !important;
+      }
+      .page1 p,
+      .page2 p,
+      .page3 p,
+      .page4 p {
+        font-size: 15px;
+      }
+      .card a {
+        padding: 3% 2% 3% 2% !important;
+      }
+      .card a img {
+        height: 28% !important;
+        margin-bottom: 30% !important;
+      }
+      .card a p:nth-child(2) {
+        font-size: 13px !important;
+      }
+      .card a p:nth-child(3) {
+        font-size: 13px !important;
+      }
+      .card a p:nth-child(4) {
+        font-size: 11px !important;
+      }
+      .plan-selector {
+        font-size: 12px !important;
+      }
+      .page3 {
+        padding: 2% 9% 0% 20% !important;
+      }
+      .page3 p {
+        padding-bottom: 6% !important;
+      }
+      #online-service-cost {
+        margin-left: 0% !important;
+        margin-right: 1% !important;
+      }
+      #larger-storage-cost {
+        margin-left: 5% !important;
+      }
+      #customisable-profile-cost {
+        margin-left: 0% !important;
+        margin-right: 1% !important;
+      }
+      .add-ons label div p:nth-child(2) {
+        margin-bottom: 2% !important;
+      }
+      .page3 button{
+        margin: 1% 1% 0% 0% !important;
+      }
+      .page1 button{
+        margin: 16% 1% 0% 0% !important;
+      }
+      .page2 button{
+        margin: 12% 1% 0% 0% !important;
+      }
+      .page4 button{
+        margin: 11% 2% 0% 0% !important;
+      }
+      .page4 {
+        padding: 2% 8% 0% 21% !important;
+      }
+      .thankyou{
+        margin-left: 12% !important;
+      }
+      .thankyou p:nth-child(3){
+        padding: 0% 17% 2% 19% !important;
+      }
+      .add-ons input{
+        width: 6%;
+      }
+    }
+  }
+  

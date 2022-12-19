@@ -1,0 +1,896 @@
+.sidebar {
+  background: url("../../assets/images/bg-sidebar-desktop.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 76vh;
+}
+
+.sidebar div {
+  display: flex;
+}
+
+#first-sidebar {
+  background-color: hsl(228deg, 100%, 84%);
+  color: hsl(213deg, 96%, 18%);
+  font-weight: 500;
+}
+
+.sidebar div span:nth-child(1) {
+  font-family: "Ubuntu", sans-serif;
+  background-color: transparent;
+  border-radius: 2rem;
+  border: 1.5px solid white;
+  width: 24px;
+  height: 20px;
+  text-align: center;
+  padding-top: 4px;
+  margin: 13% 8% 0% 20%;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 13px;
+}
+
+.sidebar div span:nth-child(2) {
+  margin-top: 13%;
+  font-family: "Ubuntu", sans-serif;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.sidebar div span:nth-child(2) p:nth-child(1) {
+  font-size: 12px;
+  color: hsl(231deg, 11%, 63%);
+  text-transform: uppercase;
+}
+
+.sidebar div span:nth-child(2) p:nth-child(2) {
+  font-size: 13px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: hsl(217deg, 100%, 97%);
+}
+
+section {
+  margin: 4% 15% 2% 15%;
+  display: grid;
+  grid-template-columns: 18vw auto;
+  background: white;
+  padding: 15px 0px;
+  border-radius: 13px;
+}
+
+.alert {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: hsl(354deg, 84%, 57%);
+  margin-right: 3%;
+  float: right;
+  display: none;
+}
+
+.page1 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.page1 {
+  padding: 2% 16% 0% 15%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.page1 form input {
+  width: 96%;
+  height: 2.3rem;
+  border-radius: 7px;
+  border: 1px solid hsl(229deg, 24%, 87%);
+  padding: 0% 1% 0% 2%;
+}
+
+input::-moz-placeholder {
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  color: hsl(231deg, 11%, 63%);
+}
+
+input:-ms-input-placeholder {
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  color: hsl(231deg, 11%, 63%);
+}
+
+.page1 form input, input::placeholder {
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  color: hsl(231deg, 11%, 63%);
+}
+
+.page1 form label {
+  padding-top: 19px;
+  padding-bottom: 8px;
+  font-size: 14px;
+}
+
+.page1 h1 {
+  font-size: 30px;
+  padding-bottom: 7px;
+  margin: 2% 1% 1% 0;
+}
+
+.page1 p {
+  font-size: 16px;
+  padding-bottom: 7px;
+  color: hsl(231deg, 11%, 63%);
+}
+
+.page1 button {
+  margin: 18% 0% 0% 0%;
+  float: right;
+  background-color: hsl(213deg, 96%, 18%);
+  color: hsl(0deg, 0%, 100%);
+  height: 7.5%;
+  width: 18%;
+  border: none;
+  border-radius: 8px;
+}
+
+.page2 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.page2 {
+  display: none;
+  padding: 2% 16% 0% 15%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.card a {
+  border: 1px solid hsl(229deg, 24%, 87%);
+  border-radius: 5px;
+  padding: 3% 8% 3% 3%;
+  margin-top: 7%;
+}
+
+.card a:hover {
+  border: 1.5px solid hsl(213deg, 96%, 18%);
+}
+
+.card a img {
+  margin-bottom: 30%;
+}
+
+.card a p:nth-child(2) {
+  color: hsl(213deg, 96%, 18%);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.card a p:nth-child(3) {
+  color: hsl(231deg, 11%, 63%);
+  font-size: 14px;
+}
+
+.card a p:nth-child(4) {
+  color: hsl(213deg, 96%, 18%);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.page2 h1 {
+  font-size: 30px;
+  padding-bottom: 7px;
+  margin: 2% 1% 1% 0;
+}
+
+.page2 p {
+  font-size: 16px;
+  padding-bottom: 7px;
+  color: hsl(231deg, 11%, 63%);
+}
+
+.page2 button {
+  margin: 8% 0% 0% 0%;
+  float: right;
+  background-color: hsl(213deg, 96%, 18%);
+  color: hsl(0deg, 0%, 100%);
+  height: 7.5%;
+  width: 18%;
+  border: none;
+  border-radius: 8px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 41px;
+  height: 18px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 0px;
+  top: 2px;
+  bottom: 0px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: hsl(213deg, 96%, 18%);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px hsl(213deg, 96%, 18%);
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.plan-selector {
+  text-align: center;
+  background-color: hsl(229deg, 24%, 87%);
+  padding: 2% 1%;
+  width: 98%;
+  border-radius: 7px;
+  margin-top: 10%;
+}
+
+.go-back-button {
+  float: left !important;
+  background-color: white !important;
+  color: hsl(231deg, 11%, 63%) !important;
+  width: 14% !important;
+  font-weight: 700 !important;
+  font-size: 14px;
+}
+
+.page3 {
+  display: none;
+  padding: 2% 16% 0% 15%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.page3 h1 {
+  font-size: 30px;
+  padding-bottom: 7px;
+  margin: 2% 1% 1% 0;
+  color: hsl(213deg, 96%, 18%);
+}
+
+.page3 p {
+  font-size: 16px;
+  color: hsl(231deg, 11%, 63%);
+  padding-bottom: 8%;
+}
+
+.add-ons label {
+  margin-bottom: 3%;
+  border-radius: 8px;
+  display: flex;
+  padding: 2.5% 2% 0% 3%;
+  border: 1px solid hsl(231deg, 11%, 63%);
+}
+
+.add-ons input {
+  margin: 0 0 16px 9px;
+  width: 3.5%;
+}
+
+.add-ons label div {
+  margin-left: 7%;
+}
+
+.add-ons label div p:nth-child(1) {
+  color: hsl(213deg, 96%, 18%);
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  padding-bottom: 1% !important;
+}
+
+.add-ons label div p:nth-child(2) {
+  color: hsl(231deg, 11%, 63%);
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  padding-bottom: 2% !important;
+}
+
+.add-ons label p {
+  margin-top: 3%;
+  font-size: 14px;
+  color: hsl(243deg, 100%, 62%);
+  font-weight: 500;
+  padding-bottom: 6% !important;
+}
+
+.add-ons label + input[type=checkbox]:checked {
+  border: 1.5px solid hsl(213deg, 96%, 18%);
+  background-color: hsl(217deg, 100%, 97%);
+}
+
+#online-service-cost {
+  margin-left: 34%;
+}
+
+#customisable-profile-cost {
+  margin-left: 32%;
+}
+
+#larger-storage-cost {
+  margin-left: 41%;
+}
+
+.page3 button {
+  margin: 6.5% 0% 0% 0%;
+  float: right;
+  background-color: hsl(213deg, 96%, 18%);
+  color: hsl(0deg, 0%, 100%);
+  height: 7.5%;
+  width: 18%;
+  border: none;
+  border-radius: 8px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.plan-selector {
+  text-align: center;
+  background-color: hsl(229deg, 24%, 87%);
+  padding: 2% 1%;
+  width: 98%;
+  border-radius: 7px;
+  margin-top: 10%;
+}
+
+.go-back-button {
+  float: left !important;
+  background-color: white !important;
+  color: hsl(231deg, 11%, 63%) !important;
+  width: 14% !important;
+  font-weight: 700 !important;
+  font-size: 14px;
+}
+
+.extra {
+  margin-right: 39% !important;
+}
+
+.add-ons input:checked + .add-ons label:after {
+  background-color: hsl(217deg, 100%, 97%);
+}
+
+.page4 {
+  display: none;
+  padding: 2% 16% 0% 15%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.page4 h1 {
+  font-size: 30px;
+  padding-bottom: 7px;
+  margin: 2% 1% 1% 0;
+  color: hsl(213deg, 96%, 18%);
+}
+
+.page4 p {
+  font-size: 16px;
+  color: hsl(231deg, 11%, 63%);
+}
+
+.summary {
+  margin-top: 7%;
+  background-color: hsl(217deg, 100%, 97%);
+  border-radius: 10px;
+}
+
+.summary div {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 4% 1% 4% !important;
+}
+
+.summary div:nth-child(1) div {
+  flex-direction: column;
+}
+
+.summary div:nth-child(1) span:nth-child(1) p:nth-child(1) {
+  color: hsl(213deg, 96%, 18%);
+  font-weight: 500;
+  margin-bottom: 2%;
+  font-size: 16px;
+}
+
+.summary div:nth-child(1) span:nth-child(1) p:nth-child(2) {
+  color: hsl(231deg, 11%, 63%);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  margin-bottom: 19%;
+}
+
+.summary div:nth-child(1) span:nth-child(2) {
+  color: hsl(213deg, 96%, 18%);
+  font-weight: 700;
+  margin-top: 2%;
+}
+
+hr {
+  background-color: hsl(229deg, 24%, 87%);
+  margin: 0;
+  width: 92%;
+  margin-left: 4%;
+  border: none;
+  height: 0.5px;
+}
+
+.summary div p {
+  color: hsl(231deg, 11%, 63%);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#online-service p {
+  margin-top: 1%;
+}
+
+#online-service p:nth-child(2) {
+  color: hsl(213deg, 96%, 18%);
+}
+
+#larger-storage p:nth-child(2) {
+  color: hsl(213deg, 96%, 18%);
+}
+
+#larger-storage p {
+  margin-bottom: 4%;
+}
+
+.total {
+  display: flex;
+  margin: 5% 0% 10% 6%;
+  justify-content: space-between;
+}
+
+.total p:nth-child(1) {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.total p:nth-child(2) {
+  margin-right: 5%;
+  color: hsl(243deg, 100%, 62%);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.page4 button {
+  margin: 6.5% 0% 0% 0%;
+  float: right;
+  background-color: hsl(213deg, 96%, 18%);
+  color: hsl(0deg, 0%, 100%);
+  height: 7.5%;
+  width: 18%;
+  border: none;
+  border-radius: 8px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.go-back-button {
+  float: left !important;
+  background-color: white !important;
+  color: hsl(231deg, 11%, 63%) !important;
+  width: 14% !important;
+  font-weight: 700 !important;
+  font-size: 14px;
+}
+
+.extra {
+  margin-right: 39% !important;
+}
+
+#change-page4:hover {
+  color: hsl(243deg, 100%, 62%);
+}
+
+.confirm-button:hover {
+  background-color: hsl(228deg, 100%, 84%);
+}
+
+.thankyou {
+  display: none;
+  text-align: center;
+  margin-top: 21%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.thankyou img {
+  height: 21%;
+}
+
+.thankyou p:nth-child(2) {
+  margin-top: 2%;
+  font-size: 30px;
+  margin-bottom: 2%;
+  font-weight: 700;
+}
+
+.thankyou p:nth-child(3) {
+  font-size: 15px;
+  line-height: 23px;
+  padding: 0% 20% 2% 22%;
+  color: hsl(231deg, 11%, 63%);
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 648px) and (max-width: 768px) {
+  body section {
+    margin: 11% 14% 2% 14% !important;
+    padding: 0% 0% 0% 1% !important;
+  }
+  body .page1 {
+    padding: 2% 11% 0% 27% !important;
+  }
+  body .page2 {
+    padding: 2% 11% 0% 24% !important;
+  }
+  body .sidebar {
+    height: 62vh !important;
+    width: 32vh;
+    margin-top: 9%;
+    margin-bottom: 9%;
+  }
+  body .page1 form label {
+    font-size: 13px;
+  }
+  body .next-step,
+body .go-back-button {
+    margin: 8% 1% 0% 0% !important;
+    height: 8% !important;
+    width: 34% !important;
+    font-size: 13px;
+  }
+  body .page1 form label {
+    padding-top: 13px !important;
+  }
+  body .page1 form input {
+    height: 2rem !important;
+  }
+  body .sidebar div:nth-child(1) {
+    margin-top: 5% !important;
+  }
+  body .sidebar div span:nth-child(1) {
+    margin: 13% 8% 0% 14% !important;
+  }
+  body .page1 h1,
+body .page2 h1,
+body .page3 h1,
+body .page4 h1 {
+    margin: 8% 1% 1% 0% !important;
+    font-size: 28px !important;
+  }
+  body .page1 p,
+body .page2 p,
+body .page3 p,
+body .page4 p {
+    font-size: 15px;
+  }
+  body .card a {
+    padding: 3% 2% 3% 2% !important;
+  }
+  body .card a img {
+    height: 28% !important;
+    margin-bottom: 30% !important;
+  }
+  body .card a p:nth-child(2) {
+    font-size: 13px !important;
+  }
+  body .card a p:nth-child(3) {
+    font-size: 13px !important;
+  }
+  body .card a p:nth-child(4) {
+    font-size: 11px !important;
+  }
+  body .plan-selector {
+    font-size: 12px !important;
+  }
+  body .page3 {
+    padding: 2% 9% 0% 20% !important;
+  }
+  body .page3 p {
+    padding-bottom: 6% !important;
+  }
+  body #online-service-cost {
+    margin-left: 0% !important;
+    margin-right: 1% !important;
+  }
+  body #larger-storage-cost {
+    margin-left: 5% !important;
+  }
+  body #customisable-profile-cost {
+    margin-left: 0% !important;
+    margin-right: 1% !important;
+  }
+  body .add-ons label div p:nth-child(2) {
+    margin-bottom: 2% !important;
+  }
+  body .page3 button {
+    margin: 1% 1% 0% 0% !important;
+  }
+  body .page1 button {
+    margin: 16% 1% 0% 0% !important;
+  }
+  body .page2 button {
+    margin: 12% 1% 0% 0% !important;
+  }
+  body .page4 button {
+    margin: 11% 2% 0% 0% !important;
+  }
+  body .page4 {
+    padding: 2% 8% 0% 21% !important;
+  }
+  body .thankyou {
+    margin-left: 12% !important;
+  }
+  body .thankyou p:nth-child(3) {
+    padding: 0% 17% 2% 19% !important;
+  }
+  body .add-ons input {
+    width: 6%;
+  }
+}
+@media only screen and (min-width: 890px) and (max-width: 1024px) {
+  body section {
+    margin: 9% 13% 2% 13% !important;
+    padding: 0% 0% 0% 2% !important;
+  }
+  body .sidebar {
+    height: 68vh !important;
+    width: 33vh;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  body .next-step,
+body .go-back-button {
+    margin: 8% 1% 0% 0% !important;
+    height: 8.5% !important;
+    width: 24% !important;
+  }
+  body .sidebar div:nth-child(1) {
+    margin-top: 5% !important;
+  }
+  body .sidebar div span:nth-child(1) {
+    margin: 13% 8% 0% 14% !important;
+  }
+  body .page1 h1,
+body .page2 h1,
+body .page3 h1,
+body .page4 h1 {
+    margin: 8% 1% 1% 0% !important;
+  }
+  body .card a {
+    padding: 3% 5% 3% 4% !important;
+  }
+  body .page3 {
+    padding: 2% 12% 0% 14% !important;
+  }
+  body #online-service-cost {
+    margin-left: 22% !important;
+  }
+  body #larger-storage-cost {
+    margin-left: 30% !important;
+  }
+  body #customisable-profile-cost {
+    margin-left: 18% !important;
+  }
+  body .add-ons label div p:nth-child(2) {
+    margin-bottom: 6% !important;
+  }
+  body .page3 button,
+body .page4 button {
+    margin: 4% 1% 0% 0% !important;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .section {
+    margin-left: 5% !important;
+  }
+  .sidebar {
+    height: 72vh !important;
+  }
+}
+@media only screen and (max-width: 376px) {
+  body {
+    margin: 0;
+  }
+  section {
+    display: block !important;
+    margin: 0% 0% 0% 0% !important;
+    padding: 0 !important;
+    background: none !important;
+    border-radius: 0 !important;
+  }
+  .sidebar {
+    display: flex !important;
+    background: url("../../assets/images/bg-sidebar-mobile.svg") !important;
+    width: 100% !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+    height: 30vh !important;
+  }
+  .sidebar div {
+    margin: 9% 4% 0% 0% !important;
+  }
+  .sidebar div:nth-child(1) {
+    margin-left: 22% !important;
+  }
+  .sidebar div span:nth-child(2) {
+    display: none !important;
+  }
+  .sidebar div span:nth-child(1) {
+    margin: 5% 0% 0% 13% !important;
+    width: 33px !important;
+    height: 23px !important;
+    padding-top: 6px !important;
+  }
+  .page1,
+.page2,
+.page3,
+.page4,
+.thankyou {
+    position: absolute !important;
+    margin-left: 4% !important;
+    width: 70% !important;
+    background-color: white !important;
+    margin-top: -23% !important;
+    border-radius: 10px !important;
+  }
+  .attribution {
+    display: none;
+    margin-top: 65vh !important;
+  }
+  .page1, .page2, .page3, .page4 {
+    padding: 8% 16% 0% 6% !important;
+    height: 60vh !important;
+  }
+  .page1 h1, .page2 h1, .page3 h1, .page4 h1 {
+    font-size: 27px !important;
+  }
+  .page1 p {
+    font-size: 17px !important;
+  }
+  .page1 form input {
+    width: 18rem !important;
+    height: 2.3rem !important;
+    border-radius: 4px !important;
+  }
+  .page1 button {
+    margin: 18% -16% 0% 0% !important;
+    height: 11% !important;
+    width: 36% !important;
+    border-radius: 4px !important;
+  }
+  .card {
+    flex-direction: column !important;
+  }
+  .card a img {
+    margin-bottom: 0% !important;
+  }
+  .card a p:nth-child(2) {
+    margin: -16% 0% 0% 21% !important;
+    color: hsl(213deg, 96%, 18%) !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+  }
+  .card a p:nth-child(3), .card a p:nth-child(4) {
+    margin: 0% 0% 0% 21% !important;
+  }
+  .card a {
+    width: 16.7rem !important;
+  }
+  .page2 {
+    height: 80vh !important;
+  }
+  .plan-selector {
+    padding: 5% 1% !important;
+    width: 18.2rem !important;
+    border-radius: 9px !important;
+  }
+  .page2 button {
+    margin: 12% -16% 0% -6% !important;
+    height: 8% !important;
+    width: 36% !important;
+    border-radius: 4px !important;
+  }
+  .page3 {
+    padding: 8% 16% 0% 6% !important;
+  }
+  .add-ons label {
+    width: 18rem !important;
+  }
+  .add-ons label div p:nth-child(2) {
+    padding-bottom: 6% !important;
+    font-size: 13px !important;
+  }
+  #online-service-cost {
+    margin-left: 2% !important;
+  }
+  #larger-storage-cost {
+    margin-left: 14% !important;
+  }
+  #customisable-profile-cost {
+    margin-left: 0% !important;
+  }
+  .page3 button, .page4 button {
+    margin: 34% -16% 0% -6% !important;
+    height: 10% !important;
+    width: 36% !important;
+    border-radius: 4px !important;
+  }
+  .add-ons input {
+    width: 5% !important;
+  }
+  .summary {
+    width: 17.5rem !important;
+    margin-top: 12% !important;
+    padding: 4% !important;
+  }
+  .total {
+    margin: 5% -12% 10% 6% !important;
+  }
+  .thankyou {
+    padding: 25% 10% 24% 12% !important;
+    width: 70% !important;
+  }
+  .thankyou img {
+    width: 3.4rem !important;
+  }
+  .thankyou p:nth-child(3) {
+    padding: 0;
+  }
+}/*# sourceMappingURL=style.css.map */

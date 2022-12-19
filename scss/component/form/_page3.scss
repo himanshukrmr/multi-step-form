@@ -1,0 +1,109 @@
+@use "../../variable";
+
+.page3{
+    display: none;
+    padding: 2% 16% 0% 15%;
+    font-family: variable.$font-family;
+}
+
+.page3{
+    h1{
+        font-size: 30px;
+        padding-bottom: 7px;
+        margin: 2% 1% 1% 0;
+        color: variable.$Marine-blue;
+    }
+}
+.page3{
+    p{
+        font-size: 16px;
+        color: variable.$Cool-gray;
+        padding-bottom: 8%;
+    }
+}
+.add-ons label{
+    margin-bottom: 3%;
+    border-radius: 8px;
+    display: flex;
+    padding: 2.5% 2% 0% 3%;
+    border: 1px solid hsl(231deg, 11%, 63%);    
+}
+.add-ons input{
+    margin: 0 0 16px 9px;
+    width: 3.5%;
+}
+.add-ons label div{
+    margin-left: 7%;
+    // margin-right: 33%;
+}
+.add-ons label div p:nth-child(1){
+    color: variable.$Marine-blue;
+    font-weight: 700;
+    font-family: variable.$font-family;
+    padding-bottom: 1% !important;
+}
+.add-ons label div p:nth-child(2){
+    color: variable.$Cool-gray;
+    font-weight: 500;
+    font-family: variable.$font-family;
+    font-size: 14px;
+    padding-bottom: 2% !important;
+}
+.add-ons label p{
+    margin-top: 3%;
+    font-size: 14px;
+    color: variable.$Purplish-blue;
+    font-weight: 500;
+    padding-bottom: 6% !important;
+}
+// .add-ons input:checked + label {
+// }
+.add-ons label + input[type=checkbox]:checked {
+    border: 1.5px solid variable.$Marine-blue;
+    background-color: variable.$Magnolia;
+  } 
+#online-service-cost{
+    margin-left: 34%;
+}
+#customisable-profile-cost{
+    margin-left: 32%;
+}
+#larger-storage-cost{
+    margin-left: 41%;
+}
+.page3{
+    button{
+        margin: 6.5% 0% 0% 0%;
+        float: right;
+        background-color: variable.$Marine-blue;
+        color: variable.$White;
+        height: 7.5%;
+        width: 18%;
+        border: none;
+        border-radius: 8px;
+        font-family: variable.$font-family;
+    }
+}
+
+.plan-selector{
+    text-align: center;
+    background-color: variable.$Light-gray;
+    padding: 2% 1%;
+    width: 98%;
+    border-radius: 7px;
+    margin-top: 10%;
+}
+.go-back-button{
+    float: left !important;
+    background-color: white !important;
+    color: variable.$Cool-gray !important;
+    width: 14% !important;
+    font-weight: 700 !important;
+    font-size: 14px;
+}
+.extra{
+    margin-right: 39% !important;
+}
+.add-ons input:checked + .add-ons label:after{
+    background-color: variable.$Magnolia;
+}
